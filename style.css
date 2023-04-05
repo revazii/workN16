@@ -1,0 +1,412 @@
+*{
+   box-sizing: border-box;
+}
+@font-face {
+    font-family: 'averta';
+    src: url(FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+    font-family: 'averta';
+}
+.header2{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    font-size: 16px;
+}
+.aa{
+font-size: 25px;
+}
+.part1{
+    font-family: averta;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 7% 5% ;
+    
+    
+}
+.part1head{
+font-size: 35px;
+
+}
+.part1par{
+    font-size: 14px;
+    color: #565656;
+}
+.part1but{
+    width: 200px;
+    height: 60px;
+    background-color: #2639ED;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    z-index: 2;
+}
+.dotimg{
+margin:-35px -50px;
+display: flex;
+gap: 14px;
+}
+.part1img{
+    
+    position: absolute;
+    z-index: 5;
+    width: 55%;
+}
+.elips{
+    position: absolute ;
+    margin-left: -5%;
+    z-index: 4;
+    
+    
+}
+.rectangle{
+    position: absolute;
+    margin: 32%;
+}
+.part1imgs{
+   
+}
+.part1all{
+    display: flex;
+}
+.part2img{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 15% 30%;
+    position: absolute;
+}
+.part2text{
+font-family: 'averta';
+width: 22%;
+position: absolute;
+margin: 10% 4%;
+}
+.part2p{
+    color: #757575;
+}
+.bigrec{
+    width: 70%;
+    height: 40%;
+    margin-left:  29.7%;
+    margin-top: -5%;
+    z-index: 5;
+    position: relative; 
+}
+.part2{
+    position: relative;
+    
+    height: 400px;
+}
+.part3ell{
+    margin: -5% -20%;
+    position: relative;
+}
+.part3dot{
+    margin: 27.5% 8.59%;
+    display: flex;
+    gap: 14px;
+    width: 410px;
+    position:absolute;
+  
+}
+.smallrec{
+    
+    margin: 5% 6%;
+    position: absolute;
+    width: 140px
+    
+}
+.part3{
+  
+    position: relative;
+    margin-top: 18%;
+    
+}
+.part3box{
+    width: 250px;
+    height: 340px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 45px;
+    font-family: 'averta';
+    
+    
+}
+.part3boxx{
+    width: 100px;
+    height: 100px;
+    margin: 10% auto ;
+    border-radius: 10px;
+    background-color: #DEFFEE;
+
+}
+.img3-1{
+    margin: 17px ;
+    width: 60px;
+}
+.box3p{
+    margin-top: 12%;
+    color:#757575;
+}
+.part3box12{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-top: -47%;
+    margin-left: 44%;
+    position:absolute;
+    z-index: 5;
+}
+.part3box34{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    z-index: 5;
+    margin-left: 67%;
+    margin-top: -52%;
+}
+.part3boxxz{
+    width: 100px;
+    height: 100px;
+    margin: 10% auto ;
+    border-radius: 10px;
+    background-color: #FFF2F8;
+}
+.part33{
+    position: absolute;
+    font-family: 'averta';   
+    margin-top: -30%;
+    margin-left: 9%;
+    z-index: 6;
+}
+.part33h{
+    font-size: 37px;
+}
+.part33p{
+    color: #565656;
+}
+.part4img{
+    position: absolute;
+}
+.part4simb{
+    position: absolute;
+    margin: 13% 22%;
+
+
+}
+.part4-1{
+    margin-top: 10%;
+    width: 45%;
+    height: 372px;
+}
+.part4-2{
+    font-family: 'averta';
+    position: absolute;
+    width: 45%;
+    margin-left: 55%;
+    margin-top: 17%;
+}
+.part4rec{
+    margin:-2% -7%;
+    position: absolute;
+    z-index: -2;
+}
+.part4p{
+    color:  #565656;
+    margin-top: 8%;
+}
+.part4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 100%;
+}
+.part4el{
+    margin: 26% 39%;
+    position: absolute;
+    z-index: -2;
+}
+.part5-1{
+    margin: 15% 33%;
+    font-family: 'averta';
+    position: absolute;
+    
+}
+.part5-1h{
+    font-size: 34px;
+}
+.part5-1p{
+    color: #757575;
+}
+.part5-2{
+    position: absolute;
+    margin-top:30%;
+}
+.part5img{
+    position: ;
+}
+.part5el{
+    position: absolute;
+    margin-top: 60% ;
+    margin-left: -95% ;
+    z-index: -2;
+}
+.part5dot{
+    position: absolute;
+    margin-left: 55%;
+    z-index: -2;
+}
+.part5-3{
+    position: absolute;
+    font-family: 'averta';
+    margin-top: 37%;
+    margin-left: 39%;
+    width: 33%;
+}
+.dots5{
+    display: flex;
+    gap: 25px;
+    margin-top: 8%;
+}
+.part5-3p{
+    color:#565656;
+}
+.part5-4img{
+    margin-left: 72%;
+    margin-top: 32%;
+    width: 25%;
+}
+
+.part5{
+    width: 100%;
+}
+.part6{
+    width: 1100px;
+    height: 270px;
+    background-color: #F4F9FF;
+    border-radius: 70px;
+    margin: 20% auto;
+    
+}
+.part6back2{
+    position: absolute;
+    margin-left: 54.2%;
+    margin-top: -7.8%;
+    height: 270px;
+    width: 400px;
+}
+.part6dot{
+    position: absolute;
+    margin-top:-11% ;
+    margin-left: 73%;
+    z-index: -2;
+    
+
+}
+.part6rec{
+    position: absolute;
+    margin-left:-3% ;
+    margin-top: 4%;
+    z-index: -2;
+}
+.part6-1{
+    width: 550px;
+    font-family: 'averta';
+    padding-left: 8%;
+    height: 100px;
+    padding-top: 6%;
+}
+.but{
+position: absolute;
+width: 170px;
+height: 50px;
+border: none;
+border-radius: 25px;
+right: 0;
+top: 0;
+margin:2% ;
+background-color: #2639ED;
+color: #FFFFFF;
+}
+.inp{
+    position: relative;
+    width: 420px;
+    height: 70px;
+    border: none;
+    border-radius: 35px;
+    padding-left: 5%;
+
+}
+.inpbut{
+    position:relative;
+    width: 420px;
+    margin-left: 58%;
+}
+.part6p{
+    color: #757575;
+}
+hr{
+    width: 85%;
+    color: #E4E4E4;
+}
+.footp{
+    font-family: 'averta';
+    color: #565656;
+}
+.footsimb{
+    display:flex ;
+    gap: 15px;
+}
+.foot2,.foot3,.foot4,.foot5{
+    font-family: 'averta';
+}
+.footer{
+    display: flex;
+    padding-top: ;
+    justify-content: space-between;
+    width: 67%;
+}
+.foot1{
+    width: 320px;
+}
+.foot2{
+    width: 180px;
+}
+.foot3{
+    width: 150px;
+}
+.foot4{
+    width: 140px;
+}
+.foot5{
+    width: 140px;
+}
+.fftt{
+    display: flex;
+    gap: 35px;
+    font-size: 12px;
+    margin-top: 5% ;
+    margin-left: 7%;
+}
+.hr2{
+    margin-top: 5%;
+}
+.last{
+    margin: 3% auto;
+    width: 250px;
+    font-family: 'averta';
+    color: #A4A4A4;
+    
+}
